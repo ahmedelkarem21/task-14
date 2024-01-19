@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Tilt+Neon&display=swap");
+:root {
+  --light_blue: #d4e2fc;
+  --dark_blue: #0b0f40;
+  --blue_color: #295ac7;
+  --orange_color: #f0903c;
+  height: 8000px;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.2;
+  box-sizing: border-box;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.orange_text {
+  color: var(--orange_color);
+}
+
+.orange_background {
+  background-color: var(--orange_color) !important;
+}
+
+.lightBlue_bg {
+  background-color: var(--light_blue);
+}
+
+.darkBlue_bg {
+  background-color: var(--dark_blue);
+}
+
+.blue_text {
+  color: var(--blue_color) !important;
+}
+
+.blue_bg {
+  background-color: var(--blue_color);
+}
+
+.containers {
+  width: 85%;
+  margin: auto;
+}
+
+.repair .left {
+  padding-top: 10%;
+}
+
+img {
+  width: 100%;
+}
+
+.repair .tools img {
+  width: 20%;
+}
+
+.repair .tools .sector {
+  box-shadow: #bcbcbc 1px 1px 10px 2px;
+  padding-top: 4%;
+  padding-bottom: 2%;
+  position: relative;
+  bottom: -50%;
+}
+
+.about_us {
+  padding-top: 12%;
+  padding-bottom: 7%;
+}
+.about_us .left {
+  padding-top: 8%;
+}
+
+.home_services {
+  padding-top: 7%;
+  padding-bottom: 6%;
+}
+.home_services .left {
+  padding-top: 16%;
+}
+
+@media (max-width: 800px) {
+  .repair .tools .sector {
+    bottom: 0;
+    margin-bottom: 6%;
+  }
+  .home_services .left {
+    padding-top: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

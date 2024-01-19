@@ -1,0 +1,55 @@
+
+
+.repair .left {
+    padding-top: 10%;
+}
+
+img {
+    width: 100%;
+}
+
+.repair .tools img {
+    width: 20%; 
+}
+
+.repair .tools .sector {
+    box-shadow: #bcbcbc 1px 1px 10px 2px;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    position: relative;
+    bottom: -50%;
+}
+
+.about_us {
+    padding-top: 12%;
+    padding-bottom: 7%;
+
+    .left {
+        padding-top: 8%;
+    }
+}
+
+.home_services {
+    padding-top: 7%;
+    padding-bottom: 6%;
+
+    .left{
+        padding-top: 16%; 
+    }
+}
+
+
+
+
+
+@media (max-width:800px){
+    .repair .tools .sector {
+        bottom: 0;
+        margin-bottom: 6%;
+    }
+
+    .home_services .left {
+        padding-top: 0;
+    }
+
+}
